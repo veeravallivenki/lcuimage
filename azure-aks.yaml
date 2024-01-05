@@ -4,7 +4,7 @@ metadata:
   name: my-deployment
 spec:
   replicas: 2
-  strategy: RollingUpdate
+  strategy: Rollingupdate
   selector:
     matchLabels:
       app: my-python-app
